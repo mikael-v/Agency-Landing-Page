@@ -45,6 +45,7 @@ li:hover {
   height: 100vh;
   position: relative;
   margin: 0;
+  padding: 0%;
 }
 
 #navigation {
@@ -75,4 +76,46 @@ li:hover {
   top: 45%;
   right: 50%;
   left: 50%;
+}
+
+header {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+
+/* First Section After Header */
+
+#transform-brand {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+}
+
+#text-container h2 {
+  font-weight: 800;
+  font-size: 3em;
+  font-family: "Fraunces";
+  color: hsl(212, 27%, 19%);
+  margin: 0;
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  font-size: 18px;
+  font-family: "Barlow";
+}
+
+#learn-more {
+  font-family: "Fraunces";
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(212, 27%, 19%);
+  font-size: 18px;
+  border-bottom: 5px solid hsl(51, 100%, 49%);
+  width: fit-content;
+  height: 1.27em;
 }
