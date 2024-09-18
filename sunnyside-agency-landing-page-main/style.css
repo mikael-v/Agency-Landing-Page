@@ -5,6 +5,9 @@
 * {
   box-sizing: border-box;
 }
+#transform {
+  display: flex;
+}
 
 body,
 html {
@@ -497,11 +500,11 @@ footer li:hover {
   body,
   html {
     height: 100vh;
-    width: 100vw;
+    width: 120%;
   }
 
   #header-img {
-    width: 200%;
+    width: 300%;
     height: 150%;
     position: relative;
     margin: 0;
@@ -515,12 +518,195 @@ footer li:hover {
     width: 100%;
   }
 
-  #egg-image {
-    display: block;
-    top: 0%;
-    width: 200%;
-    height: 150%;
+  /* hide menu  */
+  #right {
+    display: none;
   }
 
-  /* hide menu  */
+  #title {
+    width: 300%;
+  }
+  #arrow-down {
+    top: 65%;
+    left: 140%;
+  }
+
+  #left {
+    right: 25%;
+    position: relative;
+  }
+
+  #egg-image {
+    display: block;
+    position: relative;
+    top: 100%;
+    width: 300%;
+    height: 150%;
+    position: relative;
+    top: 4em;
+  }
+
+  .images {
+    width: 300%;
+  }
+
+  #stand-out-img {
+    width: 300%;
+    position: relative;
+    top: 4em;
+  }
+
+  #transform {
+    display: flex;
+    flex-direction: column;
+  }
+  #text-box {
+    order: 2;
+    position: relative;
+    top: 3.5em;
+    margin: 60% 0% 60%;
+    padding: 10% 0% 10%;
+  }
+
+  .red,
+  .yellow {
+    font-size: 200%;
+  }
+
+  .red {
+    border-bottom: 15px solid hsl(7, 99%, 70%);
+  }
+
+  .yellow {
+    border-bottom: 15px solid hsl(51, 100%, 49%);
+  }
+
+  .text-container {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 10%;
+    width: 300%;
+    height: 300%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p,
+  h2 {
+    text-align: center;
+  }
+
+  .main-text {
+    width: 75%;
+    font-size: 200%;
+  }
+
+  .container img {
+    width: 300%;
+    position: relative;
+  }
+
+  #graphic-text-p,
+  #photography-text-p {
+    z-index: 1;
+    width: 200%;
+    font-size: 36px;
+    top: -10em;
+    margin-bottom: 0%;
+    left: 40%;
+  }
+
+  .photography-img {
+    position: relative;
+    top: -1em;
+  }
+
+  .graphic-text,
+  .photography-text {
+    z-index: 1;
+    width: 300%;
+    top: -7em;
+    text-align: center;
+    left: 0%;
+    font-size: 72px;
+  }
+
+  .text-over-image {
+    padding: 10px;
+  }
+
+  #testimonials {
+    height: 120%;
+    width: 300%;
+    position: relative;
+    top: 20%;
+  }
+
+  #testimonials-title {
+    font-size: 200%;
+    position: relative;
+    top: 5em;
+    z-index: 1;
+  }
+
+  #reviews {
+    position: relative;
+    top: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px 0px;
+    gap: 100px;
+  }
+
+  .review-text,
+  .review-author,
+  .review-role {
+    font-size: 200%;
+    width: 300%;
+  }
+
+  #image-row {
+    width: 415%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100em;
+  }
+
+  footer {
+    width: 300%;
+    position: relative;
+    top: 100em;
+  }
+
+  footer li {
+    font-size: 36px;
+  }
+
+  footer img {
+    height: 3em;
+  }
+
+  #contacts {
+    gap: 50px;
+  }
+
+  footer .attribution {
+    font-size: 36px;
+  }
+  #logo {
+  }
+  #logo svg {
+    height: 5em;
+    width: 100em;
+    background-color: hsl(167, 44%, 70%);
+  }
+  #contacts {
+    margin: 0%;
+  }
 }
