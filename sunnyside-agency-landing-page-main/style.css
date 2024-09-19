@@ -33,6 +33,15 @@ li {
   padding: 15px;
 }
 
+#right {
+  display: flex;
+  padding-right: 50px;
+}
+
+#header-logo {
+  fill: white;
+}
+
 #right li:hover {
   font-weight: 700;
   font-family: "Fraunces";
@@ -503,8 +512,25 @@ footer li:hover {
     width: 120%;
   }
 
-  #header-img {
+  header {
     width: 300%;
+  }
+
+  .fa-bars {
+    color: #ffffff;
+    z-index: 1;
+    width: 50%;
+    height: 10%;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: -300%;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  #header-img {
+    width: 100%;
     height: 150%;
     position: relative;
     margin: 0;
@@ -520,20 +546,62 @@ footer li:hover {
 
   /* hide menu  */
   #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    left: 105%;
+    top: 100%;
+    width: 210%;
+    height: 350%;
     display: none;
   }
 
-  #title {
-    width: 300%;
+  #right li {
+    color: hsl(210, 4%, 67%);
+    font-size: 42px;
   }
+
+  #right li:active,
+  #right li:hover {
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 100px;
+    padding: 25px 50px;
+    font-family: "Fraunces";
+  }
+
+  #title {
+    display: block;
+    width: 300%;
+    right: -25%;
+    position: relative;
+    top: -125%;
+  }
+
   #arrow-down {
     top: 65%;
-    left: 140%;
+    left: 210%;
   }
 
   #left {
     right: 25%;
     position: relative;
+    padding-left: 100px;
+    padding-top: 0%;
+  }
+
+  #left svg {
+    height: 4em;
+    width: 100em;
+    background-color: transparent;
+    fill: #ffffff;
+    position: relative;
+    right: 45%;
+    margin: 15px;
+    margin-left: 40px;
   }
 
   #egg-image {
@@ -544,6 +612,7 @@ footer li:hover {
     height: 150%;
     position: relative;
     top: 4em;
+    z-index: 3;
   }
 
   .images {
@@ -699,12 +768,10 @@ footer li:hover {
   footer .attribution {
     font-size: 36px;
   }
-  #logo {
-  }
+
   #logo svg {
     height: 5em;
     width: 100em;
-    background-color: hsl(167, 44%, 70%);
   }
   #contacts {
     margin: 0%;
