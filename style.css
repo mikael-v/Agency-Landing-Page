@@ -96,8 +96,6 @@ header {
   padding: 0;
 }
 
-/* First 2 Sections After Header */
-
 .container {
   display: flex;
   margin: 0%;
@@ -150,7 +148,6 @@ header {
 .red {
   border-bottom: 5px solid hsl(7, 99%, 70%);
 }
-/* Next 2 Boxes */
 
 .image-below {
   position: relative;
@@ -208,8 +205,6 @@ header {
   font-family: "Barlow";
   font-weight: 600;
 }
-
-/* Reviews Section */
 
 #testimonials {
   height: 100vh;
@@ -272,12 +267,9 @@ header {
   color: hsl(210, 4%, 67%);
   font-family: "Barlow";
   font-weight: 600;
-  /* margin: 0%; */
   padding: 0%;
   margin-top: 5%;
 }
-
-/* image section */
 
 #image-row {
   display: flex;
@@ -286,8 +278,6 @@ header {
 #image-row img {
   width: 25%;
 }
-
-/* footer */
 
 footer {
   height: 45vh;
@@ -340,10 +330,6 @@ footer li:hover {
   gap: 5px;
 }
 
-/*  Media Responsiveness */
-
-/* Laptops  */
-
 @media only screen and (max-width: 1024px) {
   #header-img {
     width: 120%;
@@ -368,7 +354,6 @@ footer li:hover {
     left: 60%;
   }
 
-  /* First 2 Sections After Header */
   .container {
     width: 120%;
     top: 20%;
@@ -399,16 +384,12 @@ footer li:hover {
     top: 55%;
   }
 
-  /* REVIEW SECTION */
-
   #testimonials {
     height: 120%;
     width: 120%;
     position: relative;
     top: 20%;
   }
-
-  /* Images section */
 
   #image-row {
     display: flex;
@@ -419,7 +400,6 @@ footer li:hover {
   #image-row img {
     width: 30%;
   }
-  /* footer */
 
   footer {
     position: relative;
@@ -504,7 +484,6 @@ footer li:hover {
   }
 }
 
-/* MOBILE RESPONSIVENESS */
 @media only screen and (max-width: 600px) {
   body,
   html {
@@ -545,20 +524,32 @@ footer li:hover {
     width: 100%;
   }
 
-  /* hide menu  */
+  #navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
   #right {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    background-color: white;
-    position: absolute;
-    left: 105%;
-    top: 100%;
-    width: 210%;
-    height: 350%;
+    background-color: #ffffff;
     display: none;
+    position: absolute;
+    top: 50vh;
+    width: 100vw;
+    height: 75vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 15em 25em;
+    z-index: 1000;
   }
 
   #right li {
