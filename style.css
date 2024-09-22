@@ -532,7 +532,7 @@ footer li:hover {
   }
 
   #right {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -542,20 +542,20 @@ footer li:hover {
     background-color: #ffffff;
     display: none;
     position: absolute;
-    top: 50vh;
+    top: 75vh;
     width: 100vw;
-    height: 75vw;
+    height: 100vw;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding: 15em 25em;
+    padding: 25em 35em;
     z-index: 1000;
   }
 
   #right li {
     color: hsl(210, 4%, 67%);
     font-size: 42px;
-    margin: 5px 0px;
+    margin: 25px 0px;
   }
 
   #right li:active,
