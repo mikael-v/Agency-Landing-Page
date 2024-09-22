@@ -514,17 +514,18 @@ footer li:hover {
 
   header {
     width: 300%;
+    height: 100vh;
+    position: relative;
   }
 
   .fa-bars {
     color: #ffffff;
-    z-index: 1;
     width: 50%;
     height: 10%;
     display: block;
     position: absolute;
-    top: 30px;
-    right: -300%;
+    top: 50px;
+    left: 60%;
     cursor: pointer;
     padding: 10px;
   }
@@ -575,33 +576,36 @@ footer li:hover {
 
   #title {
     display: block;
-    width: 300%;
-    right: -25%;
-    position: relative;
-    top: -125%;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
   #arrow-down {
-    top: 65%;
-    left: 210%;
+    display: block;
+    width: fit-content;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
   #left {
-    right: 25%;
-    position: relative;
-    padding-left: 100px;
-    padding-top: 0%;
+    padding: 0%;
   }
-
   #left svg {
     height: 4em;
-    width: 100em;
+    width: auto;
     background-color: transparent;
     fill: #ffffff;
-    position: relative;
-    right: 45%;
-    margin: 15px;
-    margin-left: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2%;
   }
 
   #egg-image {
