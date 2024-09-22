@@ -555,6 +555,7 @@ footer li:hover {
   #right li {
     color: hsl(210, 4%, 67%);
     font-size: 42px;
+    margin: 5px 0px;
   }
 
   #right li:active,
